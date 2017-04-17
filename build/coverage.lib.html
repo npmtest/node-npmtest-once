@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-once/once/once.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-once/node_modules/once/once.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-once">npmtest-once (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-once/once/once.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-once/node_modules/once/once.js</span></h1>
     <h2>
         
         Statements: <span class="metric">34.62% <small>(9 / 26)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../index.html">All files</a> » <a href="index.html">node-npmtest-once/once/</a> » once.js</div>
+    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-once/node_modules/once/</a> &#187; once.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -302,51 +304,50 @@
 module.exports = wrappy(once)
 module.exports.strict = wrappy(onceStrict)
 &nbsp;
-once.proto = once(<span class="fstat-no" title="function not covered">function () {</span>
-<span class="cstat-no" title="statement not covered">  Object.defineProperty(Function.prototype, 'once', {</span>
-    value: <span class="fstat-no" title="function not covered">function () {</span>
-<span class="cstat-no" title="statement not covered">      return once(this)</span>
+once.proto = once(<span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >  Object.defineProperty(Function.prototype, 'once', {</span>
+    value: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >      return once(this)</span>
     },
     configurable: true
   })
 &nbsp;
-<span class="cstat-no" title="statement not covered">  Object.defineProperty(Function.prototype, 'onceStrict', {</span>
-    value: <span class="fstat-no" title="function not covered">function () {</span>
-<span class="cstat-no" title="statement not covered">      return onceStrict(this)</span>
+<span class="cstat-no" title="statement not covered" >  Object.defineProperty(Function.prototype, 'onceStrict', {</span>
+    value: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >      return onceStrict(this)</span>
     },
     configurable: true
   })
 })
 &nbsp;
 function once (fn) {
-  var f = <span class="fstat-no" title="function not covered">function () {</span>
-<span class="cstat-no" title="statement not covered">    if (f.called) <span class="cstat-no" title="statement not covered">return f.value</span></span>
-<span class="cstat-no" title="statement not covered">    f.called = true</span>
-<span class="cstat-no" title="statement not covered">    return f.value = fn.apply(this, arguments)</span>
+  var f = <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >    if (f.called) <span class="cstat-no" title="statement not covered" >return f.value</span></span>
+<span class="cstat-no" title="statement not covered" >    f.called = true</span>
+<span class="cstat-no" title="statement not covered" >    return f.value = fn.apply(this, arguments)</span>
   }
   f.called = false
   return f
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function onceStrict (fn) {</span>
-<span class="cstat-no" title="statement not covered">  var f = <span class="fstat-no" title="function not covered">function () {</span></span>
-<span class="cstat-no" title="statement not covered">    if (f.called)</span>
-<span class="cstat-no" title="statement not covered">      throw new Error(f.onceError)</span>
-<span class="cstat-no" title="statement not covered">    f.called = true</span>
-<span class="cstat-no" title="statement not covered">    return f.value = fn.apply(this, arguments)</span>
+<span class="fstat-no" title="function not covered" >function onceStrict (fn) {</span>
+<span class="cstat-no" title="statement not covered" >  var f = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    if (f.called)</span>
+<span class="cstat-no" title="statement not covered" >      throw new Error(f.onceError)</span>
+<span class="cstat-no" title="statement not covered" >    f.called = true</span>
+<span class="cstat-no" title="statement not covered" >    return f.value = fn.apply(this, arguments)</span>
   }
-<span class="cstat-no" title="statement not covered">  var name = fn.name || 'Function wrapped with `once`'</span>
-<span class="cstat-no" title="statement not covered">  f.onceError = name + " shouldn't be called more than once"</span>
-<span class="cstat-no" title="statement not covered">  f.called = false</span>
-<span class="cstat-no" title="statement not covered">  return f</span>
+<span class="cstat-no" title="statement not covered" >  var name = fn.name || 'Function wrapped with `once`'</span>
+<span class="cstat-no" title="statement not covered" >  f.onceError = name + " shouldn't be called more than once"</span>
+<span class="cstat-no" title="statement not covered" >  f.called = false</span>
+<span class="cstat-no" title="statement not covered" >  return f</span>
 }
 &nbsp;
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 14:38:02 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Apr 17 2017 22:32:43 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>
