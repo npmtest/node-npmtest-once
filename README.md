@@ -1,7 +1,7 @@
 # test coverage for  [once (v1.4.0)](https://github.com/isaacs/once#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-once.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-once) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-once.svg)](https://travis-ci.org/npmtest/node-npmtest-once)
 #### Run a function exactly one time
 
-[![NPM](https://nodei.co/npm/once.png?downloads=true)](https://www.npmjs.com/package/once)
+[![NPM](https://nodei.co/npm/once.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/once)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-once/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-once/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-once/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-once/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-once/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-once/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-once/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-once/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-once/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-once/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-once%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-once/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-once/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-once/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-once/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-once%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-once/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-once/build/test-report.html](https://npmtest.github.io/node-npmtest-once/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-once/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-once/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-once/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-once/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-once/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-once/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-once/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +34,6 @@
 {
     "author": {
         "name": "Isaac Z. Schlueter",
-        "email": "i@izs.me",
         "url": "http://blog.izs.me/"
     },
     "bugs": {
@@ -63,13 +68,11 @@
     "main": "once.js",
     "maintainers": [
         {
-            "name": "isaacs",
-            "email": "i@izs.me"
+            "name": "isaacs"
         }
     ],
     "name": "once",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/isaacs/once.git"
