@@ -1,4 +1,7 @@
-# test coverage for  [once (v1.4.0)](https://github.com/isaacs/once#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-once.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-once) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-once.svg)](https://travis-ci.org/npmtest/node-npmtest-once)
+# npmtest-once
+
+#### basic test coverage for  [once (v1.4.0)](https://github.com/isaacs/once#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-once.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-once) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-once.svg)](https://travis-ci.org/npmtest/node-npmtest-once)
+
 #### Run a function exactly one time
 
 [![NPM](https://nodei.co/npm/once.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/once)
@@ -80,7 +83,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
